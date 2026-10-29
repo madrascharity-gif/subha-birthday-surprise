@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#fff4f6"><title>For Subha ♡</title>
+<style>
+:root{--rose:#e85d75;--deep:#6d2440;--ink:#452b36}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,"Trebuchet MS",sans-serif;color:var(--ink);background:radial-gradient(circle at 15% 5%,#fff,transparent 35%),linear-gradient(145deg,#fff5f6,#fff8ef 55%,#ffe8ed);min-height:100vh;overflow-x:hidden}.wrap{width:min(760px,100%);margin:auto;padding:20px 18px 60px;position:relative;z-index:1}.top{text-align:center;font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:#a45a70;margin:12px 0 26px}.hero{text-align:center;padding:24px 8px 30px}.pill{display:inline-block;background:#fff9;border:1px solid #f4c8d1;border-radius:999px;padding:8px 13px;color:#a34660;font-size:.84rem}h1{font-family:Georgia,serif;font-weight:500;font-size:clamp(2.8rem,12vw,5rem);line-height:.98;letter-spacing:-.05em;margin:18px 0 12px;color:var(--deep)}h1 span{color:var(--rose);font-style:italic}.sub{font-size:1rem;line-height:1.7;max-width:470px;margin:auto;color:#7c5663}.panel{background:#ffffffc9;border:1px solid #f3d5da;box-shadow:0 18px 55px #8b415014;border-radius:26px;padding:24px;margin:18px 0;backdrop-filter:blur(8px)}.center{text-align:center}.gift{border:0;background:transparent;font-size:6.4rem;filter:drop-shadow(0 12px 10px #a53c4a25);animation:bob 2.4s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-8px) rotate(2deg)}}.small{font-size:.92rem;line-height:1.7;color:#805c68}.primary,.secondary{border-radius:999px;padding:12px 18px;font-weight:700;margin-top:8px}.primary{border:0;color:white;background:linear-gradient(135deg,#ef7087,#d94b6c);box-shadow:0 8px 20px #d94b6c30}.secondary{border:1px solid #edbdc8;background:#fff8f8;color:#9b3c57}.hidden{display:none!important}.reveal{animation:appear .7s ease both}@keyframes appear{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}h2{font-family:Georgia,serif;font-size:1.8rem;font-weight:500;color:var(--deep);margin:14px 0 10px}.letter{font-size:1rem;line-height:1.95;white-space:pre-line}.letter strong{color:#b63f5c}.signature{font-weight:800;color:var(--rose);margin-top:6px}.divider{width:70px;height:2px;border-radius:5px;background:linear-gradient(90deg,#f6c7d0,#e5b65b);margin:18px 0}.note{font-size:.82rem;color:#9a6d7b}.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}.row button{flex:1;min-width:120px}.final{text-align:center;font-family:Georgia,serif;font-size:1.35rem;line-height:1.6;color:var(--deep)}.footer{text-align:center;padding:24px 8px;color:#a16f7d;font-size:.8rem}.float{position:fixed;bottom:-40px;pointer-events:none;z-index:0;animation:up linear forwards}.spark{position:fixed;pointer-events:none;z-index:9;animation:spark .8s ease-out forwards}@keyframes up{to{transform:translateY(-115vh) rotate(35deg);opacity:0}}@keyframes spark{to{transform:translate(var(--dx),var(--dy)) scale(.2) rotate(80deg);opacity:0}}
+/* 🎵 music toggle */
+.music-toggle{position:fixed;top:12px;right:12px;z-index:20;width:44px;height:44px;border-radius:50%;border:1px solid #f3d5da;background:#ffffffdd;box-shadow:0 6px 18px #8b415018;font-size:1.1rem;cursor:pointer;display:grid;place-items:center;backdrop-filter:blur(6px);transition:transform .2s}.music-toggle:hover{transform:scale(1.08)}
+/* 🎂 Animated birthday cake */
+.cake-scene{display:grid;place-items:end center;width:100%;height:250px;padding-bottom:12px;margin:6px auto 0}
+.cake{position:relative;width:200px;height:180px;transform-origin:bottom center;animation:cakeSway 4s ease-in-out infinite}
+@keyframes cakeSway{0%,100%{transform:rotate(-1.2deg)}50%{transform:rotate(1.2deg)}}
+.plate{position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:236px;height:16px;background:linear-gradient(180deg,#f9e6ec,#e9c9d4);border-radius:50%;box-shadow:0 8px 16px #8b41501f}
+.layer{position:absolute;left:50%;transform:translateX(-50%);border-radius:10px;box-shadow:inset 0 -8px 0 rgba(0,0,0,.07)}
+.layer1{bottom:2px;width:200px;height:52px;background-image:radial-gradient(circle,#ffe08a 2px,transparent 2.6px),radial-gradient(circle,#fff 2px,transparent 2.6px),linear-gradient(180deg,#ff9db8,#e85d75);background-size:26px 26px,36px 36px,100% 100%;background-position:8px 10px,22px 26px,0 0}
+.layer2{bottom:54px;width:180px;height:48px;background-image:radial-gradient(circle,#a78bfa 2px,transparent 2.6px),radial-gradient(circle,#6ee7b7 2px,transparent 2.6px),linear-gradient(180deg,#ffb8cd,#f27a92);background-size:34px 30px,24px 28px,100% 100%;background-position:10px 12px,18px 22px,0 0}
+.layer3{bottom:102px;width:160px;height:44px;background-image:radial-gradient(circle,#ffd166 2px,transparent 2.6px),radial-gradient(circle,#fff 2px,transparent 2.6px),linear-gradient(180deg,#ffd0dd,#ffa5bd);background-size:30px 30px,40px 34px,100% 100%;background-position:6px 12px,16px 24px,0 0}
+.frosting{position:absolute;bottom:140px;left:50%;transform:translateX(-50%);width:170px;height:20px;background:#fff7fb;border-radius:12px;z-index:2;box-shadow:0 3px 0 #ffe6f0}
+.frosting::after{content:"";position:absolute;top:100%;left:8px;width:14px;height:18px;background:#fff7fb;border-radius:0 0 8px 8px;box-shadow:26px 0 0 #fff7fb,52px 0 0 #fff7fb,78px 0 0 #fff7fb,104px 0 0 #fff7fb,130px 0 0 #fff7fb}
+.candle{position:absolute;bottom:156px;left:50%;transform:translateX(-50%);width:14px;height:44px;background:repeating-linear-gradient(45deg,#fff 0 6px,#ff8fab 6px 12px);border-radius:4px;z-index:3;box-shadow:0 3px 6px #8b41501f}
+.flame{position:absolute;top:-30px;left:50%;transform:translateX(-50%);width:16px;height:28px;background:radial-gradient(circle at 50% 72%,#fff 0%,#ffe08a 28%,#ffb347 55%,#ff7a2e 80%,#ff4d1a 100%);border-radius:50% 50% 22% 22%/60% 60% 40% 40%;box-shadow:0 0 16px #ffb347aa,0 0 36px #ff8c4255;animation:flicker .45s ease-in-out infinite alternate;transition:opacity .35s ease,transform .35s ease}
+.flame.out{animation:none;opacity:0;transform:translateX(-50%) scale(.2)}
+@keyframes flicker{0%{transform:translateX(-50%) scale(1) rotate(-3deg)}100%{transform:translateX(-50%) scale(1.12) rotate(3deg)}}
+.smoke{position:absolute;top:-34px;left:50%;width:12px;height:12px;border-radius:50%;background:rgba(150,150,160,.55);pointer-events:none;opacity:0;animation:puff 1.8s ease-out forwards}
+@keyframes puff{0%{opacity:.85;transform:translate(-50%,0) scale(.5)}100%{opacity:0;transform:translate(calc(-50% + var(--dx,0px)),-72px) scale(2.4)}}
+/* 🎉 Confetti */
+.confetti-piece{position:fixed;top:-24px;z-index:9;pointer-events:none;animation:confettiFall linear forwards}
+@keyframes confettiFall{0%{transform:translateY(0) rotate(0);opacity:1}100%{transform:translateY(110vh) rotate(720deg);opacity:.15}}
+@media(min-width:600px){.panel{padding:30px}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;scroll-behavior:auto!important}}
+</style></head><body>
+<audio id="bgMusic" loop preload="auto"></audio>
+<button class="music-toggle" id="musicToggle" aria-label="Toggle background music">🔊</button>
+<main class="wrap">
+<div class="top">a little something, just for you ✦</div>
+<header class="hero"><div class="pill">🎂 Birthday special • made with care</div><h1>Happy Birthday,<br><span>Subha</span> ♡</h1><p class="sub">Innum oru year older… aana unga kurumbu mattum konjam kooda koraiyala, madam. 😂💗<br>Indha chinna surprise ungaluku kaga.</p></header>
+
+<!-- ══ 1 · SURPRISE BOX ══ -->
+<section class="panel center" id="giftPanel"><div class="small">Ungaluku oru chinna gift irukku… 👀</div><button class="gift" id="giftBtn" aria-label="Open your birthday gift">🎁</button><div><button class="primary" id="openBtn">Open your surprise ✨</button></div><p class="note">Psst… tap the gift. No peeking before that! 😌</p></section>
+
+<!-- ══ 2 · ANIMATED CAKE ══ -->
+<section class="panel hidden center" id="cakePanel"><div class="pill">🎂 your birthday cake</div><h2>Make a wish, Subha! 🌟</h2><p class="small">Blow the candle and watch the magic happen… 🎂</p>
+<div class="cake-scene" aria-hidden="true"><div class="cake">
+<div class="plate"></div>
+<div class="layer layer1"></div>
+<div class="layer layer2"></div>
+<div class="layer layer3"></div>
+<div class="frosting"></div>
+<div class="candle"><div class="flame" id="flame"></div></div>
+</div></div>
+<div><button class="primary" id="blowBtn">Blow the candle 🌬️🎂</button></div>
+<p id="cakeMsg" class="final" style="font-size:1.1rem;margin-top:16px" aria-live="polite"></p>
+<div><button class="secondary" id="letterBtn">Open your letter 💌 →</button></div>
+<p class="note">This cake is 100% calorie-free... Eatable & memorable 😄</p></section>
+
+<!-- ══ 3 · THE LETTER ══ -->
+<section class="panel hidden" id="letterPanel"><div class="pill">💌 from Shafi Shafi</div><h2>Ungaluku kaga oru letter… blush pannama padinga 😂😹</h2><div class="divider"></div>
+<div class="letter">Happy Birthdayyy, Subhashiniii Madam! ❤️🎂
+Happiest birthday to the girl who irritates me, kindle & roasts me, acts like a childish.... and still somehow manages to become such an important part of my everyday life! 😂🤍
+
+You know what...? Some people come into our lives unexpectedly, but slowly they become a part of our daily routine… avanga kitta pesama irundha etho miss panra maari irukkum. Feels like a day is incomplete...😅 Nee appadi oruthi aayitinga.... 😌✨
+
+Enaiya maari oru annoying piece ah tolerate panradhu and handle periya vishayam dhaan… you did it...😅😌 athukaga romba scene podadhingaa!... 😂 Blush pannathu pothum 😁😅🤣 But honestly, unga childishness, unga over caring, unga possessiveness 📈, unga silly reactions, and mukiyama neega kochitu 😒 porathu 😅😂… ellame sernthu dhaan onga uniqueness a irukku.... And that's what makes you spl....❤️‍🔥
+
+And Madam... konjam kammiya overthink pannunga, konjam athigama sirichitu irunga, nala saptu onga health a nalla pathukonga..... Ungaluku evlo happiness venumo.... adha vida konjam extra happiness kidaikkanum onga life la....💯😌 Unga dreams ellame nallathave nadakkanum... 🩷 life la neega nenachatha achieve pannuvinga....💯 And don't think too much about your future.... it's always a happy ending... God will take care of the rest....💯 Always stay the same, childish, caring, konjam zone-out & thinking version of yourself matu konja kammi pannikonga 😂❤️
+
+So today.... enjoy your day to the fullest, smile a lot and remember that there's one particular person who's always behind you.... and I'll always ready to annoy you, roast you, listen to your polambal's and emotions... I'm always there.... 😌 and make you even more irritated! 😂🤭❤️
+
+Ungala eppavum kalaichitu irupen, sirichite irupan, eppovume ungala verupethuven… aana ungala Oru nalum hurt panna num nenachathe kadaiyathu....💯🫠❤️‍🩹❤️
+
+<strong>Happiest Bornday....! once again, my favourite troublemaker! 🥳❤️🫂</strong>
+Stay happy, stay blessed, and keep smiling… because unga smile ah vida unga kochikira 😒 face dhaan sometimes semma comedy a irukum! 😂❤️
+
+Birthday girl nu romba thimira suthathinga… nalaikum vanthu ungala kalaipen kandipa..... Idhellam birthday offer...😉 Inniki mattum dhaan! 🤣🤌🏻💗...
+<p class="signature">— From your annoying Friend 😌😂❤️</p>
+</div><div class="divider"></div><div class="final">“I wanna make your day even more special for that.... this is just a piece of letter from my side 🩷.”</div><p class="note center">I'll do these things only to the people who are special to me and you're of those them ♡.</p></section>
+
+<!-- ══ WISHES ══ -->
+<section class="panel hidden" id="wishPanel"><h2>Birthday wishes, just for you ✨</h2><p class="small">Tap a little wish. Unakku innaikku full positive vibes mattum dhaan!</p><div class="row"><button class="secondary" data-wish="All your dreams will be fulfilled💯 Neega nenacha maariye onga life amaiyum...nenachathulam nadakum 😉. ✨">🌟 Dreams</button><button class="secondary" data-wish="shining bright when you being yourself. 🤍">💓 Beauty </button><button class="secondary" data-wish="Unga smile removes all your dark parts of your life...Stay stronger 💪 and walk bolder 😎 😊">🌷 Happiness</button></div><p id="wishText" class="final" style="font-size:1.1rem;margin-top:20px" aria-live="polite"></p></section>
+
+<!-- ══ FINALE ══ -->
+<section class="panel hidden" id="lastPanel"><div class="final">Made with a little teasing,<br>a lot of care,<br>and one big wish for your happiness. 💗</div><div class="center" style="margin-top:18px"><button class="primary" id="celebrateBtn">Celebrate one more time 🎉</button><button class="secondary" id="againBtn">Replay the surprise ↻</button></div></section>
+
+<div class="footer">A tiny page for a person who is definitely not ordinary. ♡</div></main>
+<script>
+let candleOut=false;
+
+/* ═══════════ 🎵 BACKGROUND BIRTHDAY MUSIC ═══════════
+   Paste your song link below.
+   Google Drive "view" links are auto-converted to playable direct links. */
+const MUSIC_URL="https://drive.google.com/file/d/1m8Xw79fobnTb0YbOqq71aFXtQ9gg_l8W/view?usp=drivesdk";
+
+const bg=document.getElementById('bgMusic');
+const musicToggle=document.getElementById('musicToggle');
+let musicOn=true;      // music is ON by default
+let userMuted=false;   // ONLY the toggle button can set this to true
+
+/* Google Drive share links are NOT audio files — build direct links from the file ID */
+function buildSources(url){
+  const m=url.match(/\/file\/d\/([^/?#]+)/)||url.match(/[?&]id=([^&#]+)/);
+  if(m&&/drive\.google\.com|docs\.google\.com/.test(url)){
+    const id=m[1];
+    return [
+      "https://drive.usercontent.google.com/download?id="+id+"&export=download",
+      "https://drive.google.com/uc?export=download&id="+id,
+      "https://docs.google.com/uc?export=download&id="+id
+    ];
+  }
+  return [url];
+}
+const sources=buildSources(MUSIC_URL);
+let srcIndex=0;
+
+bg.loop=true;            // plays fully, then repeats — never stops on its own
+bg.volume=0.45;
+bg.preload='auto';
+bg.src=sources[0];
+
+function setIcon(){musicToggle.textContent=musicOn?'🔊':'🔇'}
+
+function startMusic(){
+  if(userMuted)return;
+  musicOn=true;setIcon();
+  const p=bg.play();
+  /* IMPORTANT: no muting here. If the browser blocks autoplay, we simply retry. */
+  if(p&&p.catch)p.catch(()=>{setIcon()});
+}
+
+/* If a link fails, try the next direct form — never silently mute */
+bg.addEventListener('error',()=>{
+  if(srcIndex<sources.length-1){
+    srcIndex++;
+    bg.src=sources[srcIndex];
+    bg.load();
+    if(!userMuted)bg.play().catch(()=>{});
+  }
+});
+
+/* Whenever it actually plays, force the ON state */
+bg.addEventListener('playing',()=>{musicOn=true;setIcon()});
+
+/* Mute / unmute — the ONLY way music turns off */
+musicToggle.onclick=()=>{
+  if(userMuted){
+    userMuted=false;
+    startMusic();
+  }else{
+    userMuted=true;musicOn=false;
+    bg.pause();setIcon();
+  }
+};
+
+/* Autoplay is blocked until the first tap/scroll — start music on any interaction */
+['pointerdown','touchstart','keydown'].forEach(evt=>{
+  document.addEventListener(evt,()=>{if(!userMuted&&bg.paused)startMusic()},{passive:true});
+});
+
+/* Also try right away (works if the browser allows it) */
+startMusic();
+
+/* ── effects ── */
+function burst(x,y){const s=['💗','✨','🌸','♡','💖'];for(let i=0;i<18;i++){const e=document.createElement('span');e.className='spark';e.textContent=s[Math.floor(Math.random()*s.length)];e.style.left=x+'px';e.style.top=y+'px';e.style.fontSize=(14+Math.random()*16)+'px';e.style.setProperty('--dx',(Math.random()*260-130)+'px');e.style.setProperty('--dy',(Math.random()*-220-30)+'px');document.body.appendChild(e);setTimeout(()=>e.remove(),900)}}
+function floatHeart(){const e=document.createElement('span');e.className='float';e.textContent=['♡','💗','✨','🌸'][Math.floor(Math.random()*4)];e.style.left=Math.random()*96+'vw';e.style.fontSize=(18+Math.random()*20)+'px';e.style.animationDuration=(5+Math.random()*5)+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),11000)}
+function floatHearts(n=12){for(let i=0;i<n;i++)setTimeout(floatHeart,i*110)}
+function confetti(count=80){const colors=['#e85d75','#ffd166','#ff8fab','#a78bfa','#6ee7b7','#fbbf24','#fff'];for(let i=0;i<count;i++){const c=document.createElement('span');c.className='confetti-piece';c.style.left=Math.random()*100+'vw';c.style.width=(6+Math.random()*8)+'px';c.style.height=(9+Math.random()*9)+'px';c.style.background=colors[Math.floor(Math.random()*colors.length)];c.style.borderRadius=Math.random()>.5?'50%':'2px';c.style.animationDuration=(2.4+Math.random()*2.8)+'s';c.style.animationDelay=(Math.random()*.7)+'s';document.body.appendChild(c);setTimeout(()=>c.remove(),6200)}}
+function celebrate(){confetti(110);burst(innerWidth/2,innerHeight*.45);floatHearts(12)}
+function smokePuffs(){const candle=document.querySelector('.candle');if(!candle)return;for(let i=0;i<4;i++){const s=document.createElement('span');s.className='smoke';s.style.left=(42+Math.random()*16)+'%';s.style.setProperty('--dx',(Math.random()*46-23)+'px');s.style.animationDelay=(i*.16)+'s';candle.appendChild(s);s.addEventListener('animationend',()=>s.remove())}}
+
+/* ── 1 · open the gift → show ONLY the cake (+ music starts here) ── */
+function openGift(){
+  if(!document.getElementById('cakePanel').classList.contains('hidden'))return;
+  startMusic();
+  document.getElementById('giftPanel').classList.add('hidden');
+  const cake=document.getElementById('cakePanel');
+  cake.classList.remove('hidden');cake.classList.add('reveal');
+  burst(innerWidth/2,innerHeight*.38);confetti(60);
+  let n=0;const timer=setInterval(()=>{floatHeart();if(++n>14)clearInterval(timer)},850);
+  cake.scrollIntoView({behavior:'smooth',block:'start'});
+}
+document.getElementById('giftBtn').onclick=openGift;
+document.getElementById('openBtn').onclick=openGift;
+
+/* ── 2 · cake: blow the candle ── */
+document.getElementById('blowBtn').onclick=()=>{
+  if(candleOut)return;
+  candleOut=true;
+  document.getElementById('flame').classList.add('out');
+  smokePuffs();
+  document.getElementById('cakeMsg').textContent='Wish granted! 🌟 May every dream of yours come true, Subha! 💗';
+  document.getElementById('blowBtn').textContent='Candle blown! 🎉';
+  celebrate();
+};
+
+/* ── 3 · the letter button under the cake ── */
+document.getElementById('letterBtn').onclick=()=>{
+  if(!document.getElementById('letterPanel').classList.contains('hidden'))return;
+  ['letterPanel','wishPanel','lastPanel'].forEach(id=>{
+    const el=document.getElementById(id);
+    el.classList.remove('hidden');el.classList.add('reveal');
+  });
+  burst(innerWidth/2,innerHeight*.38);confetti(80);floatHearts(10);
+  document.getElementById('letterPanel').scrollIntoView({behavior:'smooth',block:'start'});
+};
+
+/* ── wishes / finale ── */
+document.querySelectorAll('[data-wish]').forEach(b=>b.onclick=()=>{document.getElementById('wishText').textContent=b.dataset.wish;burst(innerWidth/2,innerHeight*.75)});
+document.getElementById('celebrateBtn').onclick=celebrate;
+
+/* ── replay everything (music keeps playing) ── */
+document.getElementById('againBtn').onclick=()=>{
+  ['cakePanel','letterPanel','wishPanel','lastPanel'].forEach(id=>document.getElementById(id).classList.add('hidden'));
+  document.getElementById('giftPanel').classList.remove('hidden');
+  candleOut=false;
+  document.getElementById('flame').classList.remove('out');
+  document.getElementById('cakeMsg').textContent='';
+  document.getElementById('blowBtn').textContent='Blow the candle 🌬️🎂';
+  document.getElementById('wishText').textContent='';
+  document.querySelectorAll('.smoke').forEach(s=>s.remove());
+  scrollTo({top:0,behavior:'smooth'});
+};
+</script></body></html>
